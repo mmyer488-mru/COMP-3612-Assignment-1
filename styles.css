@@ -1,0 +1,210 @@
+﻿/*
+    Author:     Michael Myer
+    Course:     COMP 3612
+    Assignment: 1
+    Instructor: Randy Connolly
+    Due:        Oct 8
+    File:       styles.css
+*/
+
+/* Big shout out to developer.mozilla.org */
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+header.home {
+    background-image: url(./images/florence.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    margin: 0px;
+    padding: 5px;
+}
+
+header.travelPage {
+    background-color: #51279B;
+    padding: 5px;
+}
+
+footer {
+    background-color: #51279B;
+    color: #8662C7;
+    margin: 0px;
+    padding: 10px;
+}
+
+nav#head {
+    background-image: url(./images/logo.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    height: 60px;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+nav#foot {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#button {
+    background-color: #51279B;
+    padding: 15px;
+    width: fit-content;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.icon {
+    width: 12px;
+    height: 12px;
+    margin-left: 15px;
+}
+
+nav#head a:link, nav#head a:visited {
+    color: #51279B;
+}
+
+    nav#head a:link:hover, nav#head a:visited:hover {
+        color: #8662C7;
+    }
+
+header.travelPage nav#head a:link, header.travelPage nav#head a:visited, nav#foot a:link, nav#foot a:visited {
+    color: white;
+}
+
+    header.travelPage nav#head a:link:hover, header.travelPage nav#head a:visited:hover {
+        color: #8662C7;
+    }
+
+nav#head a:link, nav#head a:visited, nav#foot a:link, nav#foot a:visited {
+    text-decoration: none;
+}
+
+nav#head ul {
+    margin-left: 15px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+article.cards {
+    background-color: lightgray;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+    article.cards div {
+        display: inline-block;
+        margin-bottom: 5px;
+        background-color: white;
+    }
+
+        article.cards div h1 {
+            margin-bottom: 0px;
+            margin-left: 5px;
+            font-size: 14px;
+        }
+
+article.travelPage {
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+    article.travelPage div {
+        margin-bottom: 5px;
+    }
+
+p.description {
+    margin: 5px;
+    font-size: 12px;
+}
+
+div.socials {
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+div#explore {
+    font-size: 40px;
+    color: white;
+    margin-left: 75px;
+}
+
+    div#explore h1 {
+        font-size: 48px;
+    }
+
+    div#explore h2 {
+        font-size: 24px;
+    }
+
+div#mainPic {
+    margin: auto;
+}
+
+div#mainPic p {
+    margin: auto;
+    padding: 15px 0px;
+    background-color: white;
+    width: 800px;
+    text-align: center;
+}
+
+/*
+    "Socials" images were made by me using gimp and heart/'callout' shapes from microsoft paint.
+    Hovering concept stolen from instagram. 
+    Implementation questionable and a little glitchy but I spent too much time on those pictures to abandon it.
+    Obviously the likes/comment data is built into the images so you wouldn't be able to change them but I thought
+    it was cute.
+*/
+
+div#novascotia {
+    background-image: url(./images/1-large-socials.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+div#santorini {
+    background-image: url(./images/2-large-socials.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+div#amsterdam {
+    background-image: url(./images/3-large-socials.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#checkIt:hover {
+    width: 0px;
+    height: 0px;
+}
+
+p#location {
+    font-size: 80%;
+    font-weight: bold;
+}
